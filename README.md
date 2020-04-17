@@ -38,7 +38,8 @@ Before serverless functions, getting
   - Talk about other providers
   - Use Netlify because it requires almost no setup/config
 - Create a "hello world" function
-- Use Netlify Dev to run it locally, Netlify Dev runs on port 8888
+- Use `netlify dev` from sections/contact to run it locally, Netlify Dev runs on port 8888
+- Visit http://localhost:8888/.netlify/functions/hello to invoke your function locally
 - Learn about redirects to change the URL
 - Deploy and see it working live
 
