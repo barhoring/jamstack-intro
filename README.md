@@ -72,7 +72,8 @@ Diff: https://github.com/jlengstorf/jamstack-intro/compare/9061365...74db49d
 - Create a "hello world" function
 - Create a `netlify.toml` to identify the functions directory
 - Use `netlify dev` to run it locally
-- Write a redirect to change the URL
+- Go to http://localhost:8888/.netlify/functions/hello to invoke your function
+- Write a redirect to change the URL. NowtThis short link works http://localhost:8888/api/hello 
 - Deploy and see it working live
 
 #### Create an accessible form using React
@@ -113,6 +114,8 @@ Diff: https://github.com/jlengstorf/jamstack-intro/compare/6c8e75b...013ea9e
 - Actually send form submissions to the function
 - Log the `event` arg to see what gets sent
 - Send back a status code and a message
+- Create an empty gatsby-config.js file. This will signify netlify to load both your gatsby site and the servelsss functions we added.
+- Run `netlify dev` and see your site at http://localhost:8888/ and access your function at localhost:8888/api/contact
 
 #### Use Mailgun to actually send emails
 
