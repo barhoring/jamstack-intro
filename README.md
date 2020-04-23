@@ -53,7 +53,12 @@ Before serverless functions, getting
 - Use the serverless function to send email from the form
 
 ### Section 5: Create a Password-Protected Dashboard
-
+- Add this to the scrips command in package.json:
+`   "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",`
 - Add a home page and a dashboard page
 - Set up client-only routes in Gatsby
   - Use `matchPath` in `gatsby-node.js`
