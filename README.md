@@ -81,6 +81,8 @@ Before serverless functions, getting
 ### Section 6: Create a DB-Backed Todo App
 
 - Create a Fauna account (https://fauna.com)
+- Create a new key for this DB. chose Server as the Role, the Key Name property is optional.
+- Insert the key in your .env file
 - Write a GraphQL schema (`functions/utils/todos.gql`)
 - Create a new Fauna DB (https://dashboard.fauna.com/db-new/)
 - Upload the GraphQL schema to Fauna
